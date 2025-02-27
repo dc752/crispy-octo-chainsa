@@ -1,107 +1,135 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>交通出行规定</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <div class="cover">  
+        <div class="cover-content">  
+            <h1>交通出行安全规定</h1>  
+            <p>为确保老年人出行安全，特别规定以下事项，请仔细阅读并遵守</p>  
+        </div>  
+        <nav>  
+            <ul>  
+                <li><a href="#taxi">出租车</a></li>  
+                <li><a href="#train">火车</a></li>  
+                <li><a href="#ship">轮船</a></li>  
+                <li><a href="#plane">航空</a></li>  
+            </ul>  
+        </nav>  
+    </div>  
 
-<html lang="zh">
+    <article id="taxi">  
+        <h2>🚕 出租车乘客管理规定</h2>  
+        <div class="vehicle-image">  
+            <img src="taxi-cartoon.png" alt="出租车示意图">  
+        </div>  
+        <div class="highlight">  
+            <ol>  
+                <li>80岁以上老年人需出示医院健康证明方可乘车</li>  
+                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
+                <li>如无子女陪同，需提前通知出租车公司安排专人护送</li>  
+                <li>车内禁止吸烟</li>  
+                <li>发现老年人独自乘车，驾驶员需立即联系家人或居委会</li>  
+            </ol>  
+        </div>  
+        <ul>  
+            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
+            <li><strong>特殊需求：</strong>老年人乘车时，请优先使用带扶手的座椅</li>  
+        </ul>  
+    </article>  
 
-<head>
+    <article id="train">  
+        <h2>🚂 铁路乘客管理规定</h2>  
+        <div class="vehicle-image">  
+            <img src="train-cartoon.png" alt="铁路示意图">  
+        </div>  
+        <div class="highlight">  
+            <ol>  
+                <li>80岁以上老年人需出示医院健康证明方可购票</li>  
+                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
+                <li>如无子女陪同，需提前联系铁路部门安排专人护送</li>  
+                <li>车门关闭前禁止跨越轨道</li>  
+                <li>发现老年人独自乘车，工作人员需立即联系家人或居委会</li>  
+            </ol>  
+        </div>  
+        <ul>  
+            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
+            <li><strong>特殊需求：</strong>老年人乘车时，请优先使用带扶手的座椅</li>  
+        </ul>  
+    </article>  
 
-    <meta charset="UTF-8">
+    <article id="ship">  
+        <h2>🛳️ 轮船乘客管理规定</h2>  
+        <div class="vehicle-image">  
+            <img src="ship-cartoon.png" alt="轮船示意图">  
+        </div>  
+        <div class="highlight">  
+            <ol>  
+                <li>80岁以上老年人需出示医院健康证明方可登船</li>  
+                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
+                <li>如无子女陪同，需提前联系轮船公司安排专人护送</li>  
+                <li>乘船期间禁止攀爬船舷</li>  
+                <li>发现老年人独自乘船，工作人员需立即联系家人或居委会</li>  
+            </ol>  
+        </div>  
+        <ul>  
+            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
+            <li><strong>特殊需求：</strong>老年人乘船时，请优先使用带扶手的座椅</li>  
+        </ul>  
+    </article>  
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <article id="plane">  
+        <h2>✈️ 航空乘客管理规定</h2>  
+        <div class="vehicle-image">  
+            <img src="plane-cartoon.png" alt="航空示意图">  
+        </div>  
+        <div class="highlight">  
+            <ol>  
+                <li>80岁以上老年人需出示医院健康证明方可登机</li>  
+                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
+                <li>如无子女陪同，需提前联系航空公司安排专人护送</li>  
+                <li>飞行过程中需系好安全带</li>  
+                <li>发现老年人独自飞行，工作人员需立即联系家人或居委会</li>  
+            </ol>  
+        </div>  
+        <ul>  
+            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
+            <li><strong>特殊需求：</strong>老年人乘坐飞机时，请优先使用带扶手的座椅</li>  
+        </ul>  
+    </article>  
 
-    <title>交通部关于老年人安全出行指南</title>
+    <section class="warm-tip">  
+        <div class="tip-content">  
+            <h2>交通出行温馨提示</h2>  
+            <div class="tip-items">  
+                <div class="tip-item">  
+                    <img src="cartoon1.png" alt="温馨提示1">  
+                    <p>80岁以上老年人出行需携带医院健康证明</p>  
+                </div>  
+                <div class="tip-item">  
+                    <img src="cartoon2.png" alt="温馨提示2">  
+                    <p>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</p>  
+                </div>  
+                <div class="tip-item">  
+                    <img src="cartoon3.png" alt="温馨提示3">  
+                    <p>如无子女陪同，需提前联系交通部门安排专人护送</p>  
+                </div>  
+                <div class="tip-item">  
+                    <img src="cartoon4.png" alt="温馨提示4">  
+                    <p>发现老年人独自乘车，立即联系家人或居委会</p>  
+                </div>  
+                <div class="tip-item">  
+                    <img src="cartoon5.png" alt="温馨提示5">  
+                    <p>如发生意外，根据伤情赔偿，最低赔偿金为100万元</p>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
 
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-
-<body>
-
-    <header>
-
-        <h1>交通部关于老年人安全出行指南</h1>
-
-        <nav>
-
-            <ul>
-
-                <li><a href="#about">关于我们</a></li>
-
-                <li><a href="#safety-tips">出行安全建议</a></li>
-
-                <li><a href="#faq">常见问题</a></li>
-
-                <li><a href="#contact">联系我们</a></li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-    <main>
-
-        <section id="about">
-
-            <h2>关于我们</h2>
-
-            <p>我们的目标是提高公众对老年人出行安全的认识，提供实用的建议和资源，确保每位老年人都能安全、舒适地出行。</p>
-
-        </section>
-
-        <section id="safety-tips">
-
-            <h2>出行安全建议</h2>
-
-            <ul>
-
-               <li><span class="highlight">健康评估：</span>建议老年人在出行前进行健康评估：
-            <ol>
-                <li>80岁以上老人需要出具健康证明；</li>
-                <li>有健忘、阿尔茨海默病，须有家人陪伴；</li>
-                <li>严禁80岁以上老人私自独行，交通公安部门发现通知子女接回；</li>
-                <li>如无子女者通知居住地居委会带回；</li>
-                <li>发现老人乘坐交通工具出现意外，根据受伤程度运输部门进行赔偿，造成死亡最低赔偿100万元。</li>
-            </ol>
-        </li>
-        <li><span class="highlight">选择合适的交通工具：</span>推荐适合老年人的交通方式，如专门的老年人交通服务或无障碍公共交通。
-</li> <li><strong>选择合适的交通工具：</strong>推荐适合老年人的交通方式，如专门的老年人交通服务或无障碍公共交通。</li>
-
-                <li><strong>出行陪伴：</strong>鼓励家人或朋友陪伴老年人出行，以提供必要的支持和帮助。</li>
-
-            </ul>
-
-        </section>
-
-        <section id="faq">
-
-            <h2>常见问题</h2>
-
-            <h3>为什么要限制老年人乘坐某些交通工具？</h3>
-
-            <p>由于身体机能的变化，部分老年人在乘坐交通工具时可能面临更高的风险。我们建议根据个人健康状况做出出行选择。</p>
-
-            <h3>如何判断老年人是否适合出行？</h3>
-
-            <p>观察老年人的身体状况、精神状态以及是否能够独立应对出行中的各种情况。</p>
-
-        </section>
-
-        <section id="contact">
-
-            <h2>联系我们</h2>
-
-            <p>如果您有任何问题或建议，请随时联系我们。我们欢迎您的反馈和意见，以便不断改进我们的内容。</p>
-
-        </section>
-
-    </main>
-
-    <footer>
-
-        <p>免责声明：本网站内容仅供参考，具体出行决策应根据个人健康状况和专业医疗建议做出。</p>
-
-    </footer>
-
-</body>
-
+    <script src="script.js"></script>  
+</body>  
 </html>
