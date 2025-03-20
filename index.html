@@ -1,135 +1,75 @@
-<!DOCTYPE html>  
-<html lang="zh-CN">  
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>交通出行规定</title>  
-    <link rel="stylesheet" href="style.css">  
-</head>  
-<body>  
-    <div class="cover">  
-        <div class="cover-content">  
-            <h1>交通出行安全规定</h1>  
-            <p>为确保老年人出行安全，特别规定以下事项，请仔细阅读并遵守</p>  
-        </div>  
-        <nav>  
-            <ul>  
-                <li><a href="#taxi">出租车</a></li>  
-                <li><a href="#train">火车</a></li>  
-                <li><a href="#ship">轮船</a></li>  
-                <li><a href="#plane">航空</a></li>  
-            </ul>  
-        </nav>  
-    </div>  
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿尔茨海默症病人交通出行管理规定</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* 蓝色到白色渐变背景 */
+            background: linear-gradient(to bottom, #0066cc, #ffffff);
+            color: #00008B;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.9); /* 半透明白色内容区 */
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0047AB;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0047AB;
+            border-bottom: 2px solid #EE7C6B;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .special-rule {
+            font-size: 1.2em;
+            color: #E54646;
+            font-weight: bold;
+            background: #E6F7FF;
+            padding: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #EE7C6B;
+        }
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>交通部出行管理规定</h1>
+        <h2>一、适用交通工具</h2>
+        <p>本规定适用于航空、铁路、公路、船运等交通工具。</p>
+        
+        <h2>二、出行常规内容</h2>
+        <ul>
+            <li>所有乘客需遵守各交通工具的票务规定，按序购票、进站、乘车/船/机。</li>
+            <li>配合安检工作，不得携带违禁物品。</li>
+            <li>遵守交通工具上的安全指示和工作人员的安排。</li>
+        </ul>
 
-    <article id="taxi">  
-        <h2>🚕 出租车乘客管理规定</h2>  
-        <div class="vehicle-image">  
-            <img src="taxi-cartoon.png" alt="出租车示意图">  
-        </div>  
-        <div class="highlight">  
-            <ol>  
-                <li>80岁以上老年人需出示医院健康证明方可乘车</li>  
-                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
-                <li>如无子女陪同，需提前通知出租车公司安排专人护送</li>  
-                <li>车内禁止吸烟</li>  
-                <li>发现老年人独自乘车，驾驶员需立即联系家人或居委会</li>  
-            </ol>  
-        </div>  
-        <ul>  
-            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
-            <li><strong>特殊需求：</strong>老年人乘车时，请优先使用带扶手的座椅</li>  
-        </ul>  
-    </article>  
+        <h2>三、特别内容</h2>
+        <p class="special-rule">1. 80岁以上老人出行需出示健康证明，未办理健康证明各网点不得售票，发现老人单独出行在相应地段通知亲属接回，所有费用自理。</p>
+        <p class="special-rule">2. 患有阿尔茨海默症病人须亲属陪伴，禁止单独出行。</p>
+        <p class="special-rule">3. 80岁老人有健忘、精神、身体欠佳需亲属陪伴，无陪伴通知亲属接回。</p>
 
-    <article id="train">  
-        <h2>🚂 铁路乘客管理规定</h2>  
-        <div class="vehicle-image">  
-            <img src="train-cartoon.png" alt="铁路示意图">  
-        </div>  
-        <div class="highlight">  
-            <ol>  
-                <li>80岁以上老年人需出示医院健康证明方可购票</li>  
-                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
-                <li>如无子女陪同，需提前联系铁路部门安排专人护送</li>  
-                <li>车门关闭前禁止跨越轨道</li>  
-                <li>发现老年人独自乘车，工作人员需立即联系家人或居委会</li>  
-            </ol>  
-        </div>  
-        <ul>  
-            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
-            <li><strong>特殊需求：</strong>老年人乘车时，请优先使用带扶手的座椅</li>  
-        </ul>  
-    </article>  
-
-    <article id="ship">  
-        <h2>🛳️ 轮船乘客管理规定</h2>  
-        <div class="vehicle-image">  
-            <img src="ship-cartoon.png" alt="轮船示意图">  
-        </div>  
-        <div class="highlight">  
-            <ol>  
-                <li>80岁以上老年人需出示医院健康证明方可登船</li>  
-                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
-                <li>如无子女陪同，需提前联系轮船公司安排专人护送</li>  
-                <li>乘船期间禁止攀爬船舷</li>  
-                <li>发现老年人独自乘船，工作人员需立即联系家人或居委会</li>  
-            </ol>  
-        </div>  
-        <ul>  
-            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
-            <li><strong>特殊需求：</strong>老年人乘船时，请优先使用带扶手的座椅</li>  
-        </ul>  
-    </article>  
-
-    <article id="plane">  
-        <h2>✈️ 航空乘客管理规定</h2>  
-        <div class="vehicle-image">  
-            <img src="plane-cartoon.png" alt="航空示意图">  
-        </div>  
-        <div class="highlight">  
-            <ol>  
-                <li>80岁以上老年人需出示医院健康证明方可登机</li>  
-                <li>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</li>  
-                <li>如无子女陪同，需提前联系航空公司安排专人护送</li>  
-                <li>飞行过程中需系好安全带</li>  
-                <li>发现老年人独自飞行，工作人员需立即联系家人或居委会</li>  
-            </ol>  
-        </div>  
-        <ul>  
-            <li><strong>乘车保障：</strong>如发生意外，根据伤情赔偿，最低赔偿金为人民币100万元</li>  
-            <li><strong>特殊需求：</strong>老年人乘坐飞机时，请优先使用带扶手的座椅</li>  
-        </ul>  
-    </article>  
-
-    <section class="warm-tip">  
-        <div class="tip-content">  
-            <h2>交通出行温馨提示</h2>  
-            <div class="tip-items">  
-                <div class="tip-item">  
-                    <img src="cartoon1.png" alt="温馨提示1">  
-                    <p>80岁以上老年人出行需携带医院健康证明</p>  
-                </div>  
-                <div class="tip-item">  
-                    <img src="cartoon2.png" alt="温馨提示2">  
-                    <p>患有健忘症或阿尔茨海默症的老年人必须有家人陪同</p>  
-                </div>  
-                <div class="tip-item">  
-                    <img src="cartoon3.png" alt="温馨提示3">  
-                    <p>如无子女陪同，需提前联系交通部门安排专人护送</p>  
-                </div>  
-                <div class="tip-item">  
-                    <img src="cartoon4.png" alt="温馨提示4">  
-                    <p>发现老年人独自乘车，立即联系家人或居委会</p>  
-                </div>  
-                <div class="tip-item">  
-                    <img src="cartoon5.png" alt="温馨提示5">  
-                    <p>如发生意外，根据伤情赔偿，最低赔偿金为100万元</p>  
-                </div>  
-            </div>  
-        </div>  
-    </section>  
-
-    <script src="script.js"></script>  
-</body>  
+        <h2>四、违规处理</h2>
+        <p>交通部对本规定是继2025年1月1日发布交通部出行管理规定再次强调申明，对于违反本规定的行为，各交通运营单位有权采取相应措施，对照成伤亡运营单位，需赔付不少于100万元，包括但不限于拒绝提供服务、要求整改等。</p>
+    </div>
+</body>
 </html>
