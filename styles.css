@@ -1,1 +1,12 @@
-
+$primary-color: #0066cc;
+body {
+    background: linear-gradient(to bottom, $primary-color, #ffffff);
+}
+body {
+    background: linear-gradient(to bottom, #0066cc, #ffffff);
+}
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
